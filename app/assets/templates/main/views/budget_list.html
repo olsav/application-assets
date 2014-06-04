@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+    <section class="list-group">
+      <a class="list-group-item clearfix" ng-repeat="budget in budgets" ui-sref="budgets.details({ budgetId: budget.id })">
+        <div class="pull-right">
+          <span class="label" style="color: #555;">{{ ( budget.amount | number ) || 'Unlimited' }}</span>
+          <span class="label label-info">{{ budget.currency }}</span>
+
+          <div class="text-right">
+            <small>
+              <span class="glyphicon glyphicon-calendar"></span>
+              {{ ( budget.expiration | date ) || 'Unlimited' }}
+            </small>
+          </div>
+        </div>
+
+        <div>{{ budget.name }}</div>
+      </a>
+    </section>
+  </div>
+
+  <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
+    <div ui-view="details"></div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "name": "application-assets",
+  "version": "0.0.0",
+
+  "scripts": {
+    "pretest": "grunt jshint",
+    "test": "karma start test/karma.conf.js"
+  },
+
+  "devDependencies": {
+    "grunt": "*",
+    "karma": "*",
+
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
+
+    "karma-jasmine": "*",
+    "karma-coverage": "*",
+    "karma-ie-launcher": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*"
+  },
+
+  "private": true
+}

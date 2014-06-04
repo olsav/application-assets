@@ -1,0 +1,11 @@
+[{
+  "id": 1,
+  "date": 1398718800000,
+  "amount": 200,
+  "comment": "Pocket expenses"
+}, {
+  "id": 2,
+  "date": 1398805200000,
+  "amount": 200,
+  "comment": "Pocket expenses"
+}]

@@ -1,0 +1,13 @@
+[{
+  "id": 1,
+  "name": "Main reserve",
+  "amount": null,
+  "currency": "UAH",
+  "expiration": null
+}, {
+  "id": 2,
+  "name": "House of my dream",
+  "amount": 250000,
+  "currency": "USD",
+  "expiration": null
+}]
